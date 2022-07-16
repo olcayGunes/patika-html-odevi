@@ -1,0 +1,75 @@
+body {
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Ibarra Real Nova', serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+nav {
+    position: absolute;
+    background-color: #94B49F;
+    width: 98%;
+    height: 9%;
+    border-radius: 25px;
+}
+
+nav ul li {
+    position: relative;
+    float: left;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 23%;
+    list-style-type: none;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+li a {
+    text-align: center;
+    color: #2C3639;
+    display: block;
+    border-radius: 25px;
+    padding: 2%;
+}
+
+li a:hover {
+    background-color: #CEE5D0;
+}
+
+article {
+    background-color: #ECB390;
+    border-radius: 25px;
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 5%;
+    width: 40%;
+}
+
+#second-article {
+    float: right;
+    margin-left: 50%;
+    margin-right: 10%;
+    padding-right: 50px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+img {
+    text-align: center;
+    border: #2C3639;
+    border-width: 5px;
+    border-style: groove;
+}
+
+.text-div {
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 25%;
+    margin-right: 26%;
+    text-align: justify;
+}
